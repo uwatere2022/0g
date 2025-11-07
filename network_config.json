@@ -1,0 +1,114 @@
+{
+  "sepolia": {
+    "name": "Ethereum Sepolia",
+    "chainId": 11155111,
+    "rpcUrl": "https://eth-sepolia.public.blastapi.io",
+    "native_symbol": "ETH",
+    "contracts": {
+      "USDC": "0x8BEbFCBe5468F146533C182dF3DFbF5ff9BE00E2",
+      "R2USD": "0x9e8FF356D35a2Da385C546d6Bf1D77ff85133365",
+      "SR2USD": "0x006CbF409CA275bA022111dB32BDAE054a97d488",
+      "WBTC": "0x4f5b54d4AF2568cefafA73bB062e5d734b55AA05",
+      "LIQUIDITY1": "0x07aBD582Df3D3472AA687A0489729f9F0424b1e3",
+      "LIQUIDITY2": "0xe85A06C238439F981c90b2C91393b2F3c46e27FC",
+      "STAKING": "0x23b2615d783E16F14B62EfA125306c7c69B4941A",
+      "STAKE_SR2": "0x006CbF409CA275bA022111dB32BDAE054a97d488"
+    }
+  },
+  "arbitrum_sepolia": {
+    "name": "Arbitrum Sepolia",
+    "chainId": 421614,
+    "rpcUrl": "https://sepolia-rollup.arbitrum.io/rpc",
+    "native_symbol": "ARB",
+    "contracts": {
+      "USDC": "0xef84994eF411c4981328fFcE5Fda41cD3803faE4",
+      "R2USD": "0x20c54C5F742F123Abb49a982BFe0af47edb38756",
+      "SR2USD": "0x6b9573B7dB7fB98Ff4014ca8E71F57aB7B7ffDFB",
+      "WBTC": "",
+      "LIQUIDITY1": "0xCcE6bfcA2558c15bB5faEa7479A706735Aef9634",
+      "LIQUIDITY2": "0x58F68180a997dA6F9b1af78aa616d8dFe46F2531",
+      "STAKING": "",
+      "STAKE_SR2": "0x6b9573B7dB7fB98Ff4014ca8E71F57aB7B7ffDFB"
+    }
+  },
+  "plume_testnet": {
+    "name": "Plume Testnet",
+    "chainId": 98867,
+    "rpcUrl": "https://testnet-rpc.plumenetwork.xyz/",
+    "native_symbol": "PLUME",
+    "contracts": {
+      "USDC": "0xef84994eF411c4981328fFcE5Fda41cD3803faE4",
+      "R2USD": "0x20c54C5F742F123Abb49a982BFe0af47edb38756",
+      "SR2USD": "0xf8694d25947a0097cb2cea2fc07b071bdf72e1f8",
+      "WBTC": "",
+      "LIQUIDITY1": "0x726cD35eE1AcE22e31ae51021A06DD24745D7f45",
+      "LIQUIDITY2": "0x5DfEC10AE4EFdCBA51251F87949ae70fC6a36B5B",
+      "STAKING": "",
+      "STAKE_SR2": "0xBD6b25c4132F09369C354beE0f7be777D7d434fa"
+    }
+  },
+  "monad_testnet": {
+    "name": "Monad Testnet",
+    "chainId": 10143,
+    "rpcUrl": "https://testnet-rpc.monad.xyz/",
+    "native_symbol": "MON",
+    "contracts": {
+      "USDC": "0x8BEbFCBe5468F146533C182dF3DFbF5ff9BE00E2",
+      "R2USD": "0x4f5b54d4AF2568cefafA73bB062e5d734b55AA05",
+      "SR2USD": "0xF8694d25947A0097CB2cea2Fc07b071Bdf72e1f8",
+      "WBTC": "",
+      "LIQUIDITY1": "",
+      "LIQUIDITY2": "0xfB8e1C3b833f9E67a71C859a132cf783b645e436",
+      "STAKING": "",
+      "STAKE_SR2": "0xF8694d25947A0097CB2cea2Fc07b071Bdf72e1f8"
+    }
+  },
+  "bsc_testnet": {
+    "name": "BNB Smart Chain Testnet",
+    "chainId": 97,
+    "rpcUrl": "https://bsc-testnet-rpc.publicnode.com",
+    "native_symbol": "tBNB",
+    "contracts": {
+      "USDC": "0xef84994eF411c4981328fFcE5Fda41cD3803faE4",
+      "R2USD": "0x20c54C5F742F123Abb49a982BFe0af47edb38756",
+      "SR2USD": "0xBD6b25c4132F09369C354beE0f7be777D7d434fa",
+      "WBTC": "",
+      "LIQUIDITY1": "",
+      "LIQUIDITY2": "",
+      "STAKING": "",
+      "STAKE_SR2": "0xBD6b25c4132F09369C354beE0f7be777D7d434fa"
+    }
+  },
+  "base_sepolia": {
+    "name": "Base Sepolia Testnet",
+    "chainId": 84532,
+    "rpcUrl": "https://sepolia.base.org",
+    "native_symbol": "BASE",
+    "contracts": {
+      "USDC": "0xef84994eF411c4981328fFcE5Fda41cD3803faE4",
+      "R2USD": "0x20c54C5F742F123Abb49a982BFe0af47edb38756",
+      "SR2USD": "0xBD6b25c4132F09369C354beE0f7be777D7d434fa",
+      "WBTC": "",
+      "LIQUIDITY1": "",
+      "LIQUIDITY2": "",
+      "STAKING": "",
+      "STAKE_SR2": "0xBD6b25c4132F09369C354beE0f7be777D7d434fa"
+    }
+  },
+  "pharos_testnet": {
+    "name": "Pharos Testnet",
+    "chainId": 688688,
+    "rpcUrl": "https://testnet.dplabs-internal.com",
+    "native_symbol": "PHAROS",
+    "contracts": {
+      "USDC": "0x8bebfcbe5468f146533c182df3dfbf5ff9be00e2",
+      "R2USD": "0x4f5b54d4af2568cefafa73bb062e5d734b55aa05",
+      "SR2USD": "0xf8694d25947a0097cb2cea2fc07b071bdf72e1f8",
+      "WBTC": "",
+      "LIQUIDITY1": "",
+      "LIQUIDITY2": "",
+      "STAKING": "",
+      "STAKE_SR2": "0xf8694d25947a0097cb2cea2fc07b071bdf72e1f8"
+    }
+  }
+}
